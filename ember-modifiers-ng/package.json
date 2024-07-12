@@ -1,9 +1,10 @@
 {
   "name": "@ember-ng/modifiers",
   "version": "0.0.0",
-  "description": "The default blueprint for Embroider v2 addons.",
+  "description": "An Ember addon that provides a unified, function-based API for building Ember modifiers.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-modifiers"
   ],
   "repository": "",
   "license": "MIT",
@@ -56,9 +57,9 @@
     "tracked-built-ins": "^3.3.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.24.7",
-    "@babel/plugin-transform-typescript": "^7.24.7",
-    "@babel/runtime": "^7.24.7",
+    "@babel/core": "^7.24.8",
+    "@babel/plugin-transform-typescript": "^7.24.8",
+    "@babel/runtime": "^7.24.8",
     "@embroider/addon-dev": "^5.0.0",
     "@glint/core": "^1.4.0",
     "@glint/environment-ember-loose": "^1.4.0",
