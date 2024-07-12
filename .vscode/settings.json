@@ -1,0 +1,10 @@
+{
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "glimmer-ts",
+    "glimmer-js"
+  ]
+}

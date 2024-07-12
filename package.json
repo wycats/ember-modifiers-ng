@@ -4,21 +4,25 @@
   "license": "MIT",
   "author": "",
   "scripts": {
-    "build": "pnpm --filter ember-modifiers-ng build",
+    "build": "pnpm --filter @ember-ng/modifiers build",
     "lint": "pnpm --filter '*' lint",
     "lint:fix": "pnpm --filter '*' lint:fix",
     "prepare": "pnpm build",
     "start": "concurrently 'pnpm:start:*' --restart-after 5000 --prefix-colors cyan,white,yellow",
-    "start:addon": "pnpm --filter ember-modifiers-ng start --no-watch.clearScreen",
+    "start:addon": "pnpm --filter @ember-ng/modifiers start --no-watch.clearScreen",
     "start:test-app": "pnpm --filter test-app start",
     "test": "pnpm --filter '*' test",
     "test:ember": "pnpm --filter '*' test:ember"
   },
   "devDependencies": {
-    "@glint/core": "^1.2.1",
-    "concurrently": "^8.2.0",
-    "prettier": "^3.0.3",
-    "prettier-plugin-ember-template-tag": "^1.1.0"
+    "@babel/core": "^7",
+    "@glint/core": "^1.4.0",
+    "concurrently": "^8.2.2",
+    "ember-source": "~5.10.0",
+    "prettier": "^3.3.2",
+    "prettier-plugin-ember-template-tag": "^2.0.2",
+    "typescript": "^5.5.3",
+    "webpack": "^5.92.1"
   },
   "pnpm": {
     "overrides": {

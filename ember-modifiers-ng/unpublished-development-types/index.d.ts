@@ -3,6 +3,7 @@
 
 import '@glint/environment-ember-loose';
 import '@glint/environment-ember-template-imports';
+import 'ember-source/types';
 
 declare module '@glint/environment-ember-loose/registry' {
   // Remove this once entries have been added! 👇
